@@ -75,8 +75,10 @@ console.log(getLast(['a', 'b', 'c']));
 console.log(getLast([]));     
 // 7. Function to find a value in an array. Return true if the 
 //    value is found and false otherwise. Use a loop;
-//    DO NOT use Array.includes, Array.indexOf, or Array.find 
-function find(value, array) {
+
+function find(value, array){
+
+
   for (let i = 0; i < array.length; i++) {
     if (array[i] === value) {
       return true;
